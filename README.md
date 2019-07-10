@@ -104,7 +104,7 @@ Este é um exemplo de como configurar seu aplicativo Android para receber e exib
                     .setSenderId("{Seu código de remetente}")
                     //Você encontra o "ponto de acesso ao Aplicativo" nas configurações do seu Aplicativo Mobile Push (App Endpoint).
                     .setMarketingCloudServerUrl("{Seu ponto de acesso ao Aplicativo}")
-                    //Você encontra o "código MID" nas informações da conta.
+                    //"Código MID" é o Id da organização
                     .setMid("{Seu código MID}")
                     .setNotificationCustomizationOptions(
                             //Icone da notificação
