@@ -1,8 +1,8 @@
 # MobilePush.
 Este é um exemplo de como configurar seu aplicativo Android para receber e exibir notificações enviadas pela ferramenta Mobile Push do Marketing Cloud Salesforce.
 <br /><br />
-<img src="https://github.com/LuidyMG/MobilePush/blob/master/readme/exampleMobile.jpeg" width="150px" />
-<img src="https://github.com/LuidyMG/MobilePush/blob/master/readme/exampleMobile2.jpg" />
+<img align="center" src="https://github.com/LuidyMG/MobilePush/blob/master/readme/exampleMobile.jpeg" width="183px" />
+<img align="center" src="https://github.com/LuidyMG/MobilePush/blob/master/readme/exampleMobile2.jpg" />
 
 ### Configurando arquivo project>build.gradle.
   
