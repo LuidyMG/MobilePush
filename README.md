@@ -120,11 +120,11 @@ Este é um exemplo de como configurar seu aplicativo Android para receber e exib
     }
 ### Dados para configuração do MarketingCloudSdk.
 
-#### App Id, Access Token, App Endpoint e MID.
+#### 1. App Id, Access Token, App Endpoint e MID.
 
 ![](https://github.com/LuidyMG/MobilePush/blob/master/readme/marketingcloud.jpg)
 
-#### Código de remetente.
+#### 2. Código de remetente.
 
 ![](https://github.com/LuidyMG/MobilePush/blob/master/readme/firebase.jpg)
 
