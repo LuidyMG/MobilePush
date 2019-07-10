@@ -122,7 +122,7 @@ Este é um exemplo de como configurar seu aplicativo Android para receber e exib
 
 #### 1. App Id, Access Token, App Endpoint e MID.
 
-![](https://github.com/LuidyMG/MobilePush/blob/master/readme/marketingcloud.jpeg)
+![](https://github.com/LuidyMG/MobilePush/blob/master/readme/marketingcloud2.jpg)
 
 #### 2. Código de remetente.
 
