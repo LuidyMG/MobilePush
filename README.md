@@ -118,8 +118,18 @@ Este é um exemplo de como configurar seu aplicativo Android para receber e exib
             });
         }
     }
-### Dados para configuração do MarketingCloudSdk
+### Dados para configuração do MarketingCloudSdk.
 
-#### App Id, Access Token e App Endpoint
+#### App Id, Access Token, App Endpoint e MID.
 
 ![](https://github.com/LuidyMG/MobilePush/blob/master/readme/marketingcloud.jpg)
+
+#### Código de remetente.
+
+![](https://github.com/LuidyMG/MobilePush/blob/master/readme/firebase.jpg)
+
+### Links de referência.
+
+ - http://salesforce-marketingcloud.github.io/JB4A-SDK-Android/
+ - http://salesforce-marketingcloud.github.io/JB4A-SDK-Android/sdk-implementation/implement-sdk-google.html
+ - https://firebase.google.com/docs/android/setup
