@@ -118,3 +118,8 @@ Este é um exemplo de como configurar seu aplicativo Android para receber e exib
             });
         }
     }
+### Dados para configuração do MarketingCloudSdk
+
+#### App Id, Access Token e App Endpoint
+
+![](https://github.com/LuidyMG/MobilePush/blob/master/readme/marketingcloud.jpg)
