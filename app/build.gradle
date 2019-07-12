@@ -4,7 +4,7 @@ android {
     compileSdkVersion 29
     buildToolsVersion "29.0.0"
     defaultConfig {
-        applicationId "com.example.teste_mobile_push2"
+        applicationId "com.example.testeincrivel"
         minSdkVersion 16
         targetSdkVersion 29
         versionCode 1
@@ -18,19 +18,20 @@ android {
         }
     }
 }
+
 repositories {
     maven { url "https://salesforce-marketingcloud.github.io/JB4A-SDK-Android/repository" }
 }
+
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'androidx.appcompat:appcompat:1.1.0-rc01'
-    implementation 'androidx.constraintlayout:constraintlayout:2.0.0-beta2'
-    testImplementation 'junit:junit:4.13-beta-3'
-    androidTestImplementation 'androidx.test:runner:1.3.0-alpha01'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0-alpha01'
-    implementation 'com.salesforce.marketingcloud:marketingcloudsdk:6.3.3'
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
     implementation 'com.google.firebase:firebase-core:16.0.0'
-    implementation 'com.google.android.gms:play-services-location:16.0.0'
+    implementation 'com.salesforce.marketingcloud:marketingcloudsdk:6.3.3'
 }
 
 apply plugin: 'com.google.gms.google-services'
