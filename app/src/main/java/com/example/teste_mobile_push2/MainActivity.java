@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
                 // TODO handle initialization status
             }
         });
-        //Definir Chave de .
+        //Definir Chave de Contato
         MarketingCloudSdk.requestSdk(new MarketingCloudSdk.WhenReadyListener() {
             @Override public void ready(MarketingCloudSdk sdk) {
                 RegistrationManager registrationManager = sdk.getRegistrationManager();
