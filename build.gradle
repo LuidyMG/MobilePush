@@ -4,7 +4,7 @@ buildscript {
     repositories {
         google()
         jcenter()
-        maven {url " https://salesforce-marketingcloud.github.io/JB4A-SDK-Android/repository " }
+        
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.4.1'
@@ -18,9 +18,11 @@ allprojects {
     repositories {
         google()
         jcenter()
+        
     }
 }
 
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
