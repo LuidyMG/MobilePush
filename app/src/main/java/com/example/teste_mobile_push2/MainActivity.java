@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
                         //Icone da notificação
                     NotificationCustomizationOptions.create(R.drawable.ic_notification_icon)
                 )
+                //Espera a definição da chave de contato para prosseguir
                 .setDelayRegistrationUntilContactKeyIsSet(true)
                 .build(this), new MarketingCloudSdk.InitializationListener() {
             @Override public void complete(@NonNull InitializationStatus status) {
