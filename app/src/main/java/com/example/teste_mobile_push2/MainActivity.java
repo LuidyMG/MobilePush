@@ -17,20 +17,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //Definir Chave de .
-        MarketingCloudSdk.requestSdk(new MarketingCloudSdk.WhenReadyListener() {
-            @Override public void ready(MarketingCloudSdk sdk) {
-                RegistrationManager registrationManager = sdk.getRegistrationManager();
-
-                // Inserir sua chave de contato
-                registrationManager
-                        .edit()
-                        //Chave de sua preferencia, contanto que seja único.
-                        .setContactKey("{Sua chave de contato}")
-                        .commit();
-            }
-        });
-
         //Iniciar o MarketingCloudSdk para receber as notificações.
         MarketingCloudSdk.init(this, MarketingCloudConfig.builder()
                 //Você encontra o "id da sua Aplicação" nas configurações do seu Aplicativo Mobile Push (App ID).
@@ -47,10 +33,23 @@ public class MainActivity extends AppCompatActivity {
                         //Icone da notificação
                     NotificationCustomizationOptions.create(R.drawable.ic_notification_icon)
                 )
-                .setGeofencingEnabled(true)
+                .setDelayRegistrationUntilContactKeyIsSet(true)
                 .build(this), new MarketingCloudSdk.InitializationListener() {
             @Override public void complete(@NonNull InitializationStatus status) {
                 // TODO handle initialization status
+            }
+        });
+        //Definir Chave de .
+        MarketingCloudSdk.requestSdk(new MarketingCloudSdk.WhenReadyListener() {
+            @Override public void ready(MarketingCloudSdk sdk) {
+                RegistrationManager registrationManager = sdk.getRegistrationManager();
+
+                // Inserir sua chave de contato
+                registrationManager
+                        .edit()
+                        //Chave de sua preferencia, contanto que seja único.
+                        .setContactKey("{Sua chave de contato}")
+                        .commit();
             }
         });
     }
